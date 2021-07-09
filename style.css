@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    background-color: #FD4B11;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.container{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.Information_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+
+
+h2{
+   margin-top: 40px;
+}
+
+
+.info{
+    width: 47.5%;
+}
+
+
+
+.info button{
+    height: 55px;
+    width: 100%;
+    background-color: rgb(255, 72, 0);
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.result{
+    width: 47.5%;
+    height: 330px;
+    border-radius: 5px;
+    background-color:#222222;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 11px;
+}
+
+
+#myList{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+
+
+#myList li{
+    padding: 12px;
+    margin: 15px 0px;
+    font-size: 17px;
+    border-radius: 3px;
+    background-image:
+    linear-gradient(#ffffff, aliceblue);
+    color: #222222;
+}
+
+
+
+
+.info input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: 1px solid rgb(201, 201, 201);
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Informations</title>
+    <link rel="shortcut icon" href="https://www.colorcombos.com/images/colors/FF3C00.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <h2 id="heading">Submit Your Informations</h2>
+      <div class="Information_wrapper">
+        <div class="info">
+                <form action="#" name="datas">
+                <input type="text" name="s_name" placeholder="Type Your Name">
+                <input type="text" name="f_name" placeholder="Type Your Father's Name">
+                <input type="text" name="m_name" placeholder="Type Your Mother's Name">
+                <input type="number" name="phone" placeholder="Type Your Mobile Number">
+                <input type="email" name="email" placeholder="Type Your E-Mail Address">
+                <button onclick="infos(datas.s_name.value, datas.f_name.value, datas.m_name.value, datas.phone.value, datas.email.value)" type="button">Submit</button>
+                </form>
+        </div>
+
+        <div class="result">
+           <ul id="myList"></ul>
+        </div>
+
+     </div>
+   </div>
+
+   
+   
+   <script src="custom.js"></script>
+</body>
+</html>
