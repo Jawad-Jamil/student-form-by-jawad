@@ -1,11 +1,7 @@
 
 function infos(sname,fname,mname,num,mail) {
-    console.log("Name: " + sname);
-    console.log("Father's Name: " + fname);
-    console.log("Mother's Name: " + mname);
-    console.log("Phone Number: " + num);
-    console.log("Phone Number: " + num);
-
+    
+document.getElementById("myList").innerHTML = "";
 
     var node = document.createElement("LI");
 var textnode = document.createTextNode("Name: " + sname);
